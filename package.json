@@ -1,13 +1,23 @@
 {
   "name": "codeceptjs-twiliohelper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CodeceptJS Helper to read SMS on Twilio Online Numbers, useful for OTP based Authentication with Appium",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:puneet0191/codeceptjs-twiliohelper.git"
+  },
+  "keywords": [
+    "codeceptJS",
+    "codeceptjs",
+    "twilio",
+    "codeceptjs-twilio",
+    "codeceptjs-twiliohelper"
+  ],
+  "author": "Puneet Kala <puneet.0191@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
     "codeceptjs": "^3.0.5",

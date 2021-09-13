@@ -13,7 +13,7 @@ npm i codeceptjs-twiliohelper --save
    helpers: {
     TwilioHelper: {
           require: "codeceptjs-twiliohelper",
-          accountID: process.env.TWILIO_ACCOUNT_ID,
+          accountID: process.env.TWILIO_ACCOUNT_SID,
           authToken: process.env.TWILIO_ACCOUNT_AUTH_TOKEN,
         },
   //...

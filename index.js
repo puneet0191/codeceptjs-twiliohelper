@@ -5,8 +5,8 @@ class TwilioHelper extends Helper {
 
     constructor(config) {
         super(config);
-        if (!config.accountSid) {
-            throw new Error('Twilio Helper is not configured! Please provide accountSid');
+        if (!config.accountID) {
+            throw new Error('Twilio Helper is not configured! Please provide accountID');
         }
 
         if (!config.authToken) {
